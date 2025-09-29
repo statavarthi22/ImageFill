@@ -124,7 +124,8 @@
   }
 
   .fullscreen-image {
-    @apply w-full h-full object-cover object-center block transition-opacity duration-300;
+    @apply w-full h-full object-cover block transition-opacity duration-300;
+    object-position: center 15%;
   }
 
   /* Loading overlay */
@@ -145,7 +146,7 @@
   @media (max-width: 768px) {
     .fullscreen-image {
       @apply object-cover;
-      object-position: center top;
+      object-position: center 15%;
     }
   }
 
